@@ -5,16 +5,14 @@ import Eventlist from './screen/eventList';
 import { globalStyles } from './screen/global';
 import Header from './screen/header';
 import Icon from './screen/icon';
+import Navigator from './routes/homeStack'
 
 
 
 export default function App() {
   return (
     <View style={globalStyles.container}>
-    <Header/>
-  <Eventlist/>
-  <Icon/>
-  
+   <Navigator/>
 
 
   </View>
